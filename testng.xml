@@ -3,9 +3,9 @@
 <suite thread-count="2" parallel="tests" name="Suite">
 
     <test name="Test1">
-        <parameter name="browser" value="edge" />
-        <parameter name="version" value="102" />
-        <parameter name="platform" value="WIN8" />
+        <parameter name="browser" value="safari" />
+        <parameter name="version" value="18" />
+        <parameter name="platform" value="MAC" />
         <classes>
             <class name="com.TC01_Validate_Message" />
         </classes>
@@ -31,7 +31,7 @@
 
     <test name="Test4">
         <parameter name="browser" value="safari" />
-        <parameter name="version" value="13" />
+        <parameter name="version" value="18" />
         <parameter name="platform" value="MAC" />
         <classes>
             <class name="com.TC02_DragAndDropSliders" />
@@ -41,7 +41,7 @@
     <test name="Test5">
         <parameter name="browser" value="edge" />
         <parameter name="version" value="102" />
-        <parameter name="platform" value="MAC" />
+        <parameter name="platform" value="WIN11" />
         <classes>
             <class name="com.TC03_InputFormSubmission" />
         </classes>
@@ -49,11 +49,11 @@
 
     <test name="Test6">
         <parameter name="browser" value="chrome" />
-        <parameter name="version" value="79.0" />
-        <parameter name="platform" value="WIN8" />
+        <parameter name="version" value="112" />
+        <parameter name="platform" value="WIN10" />
         <classes>
             <class name="com.TC03_InputFormSubmission" />
         </classes>
-    </test>
+    </test> 
 
 </suite>
